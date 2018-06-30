@@ -1,0 +1,9 @@
+<%include public/header %>
+    <ul>
+        <% listdata.map(function (item,index) {%>
+            <li>
+                <%= item.name %>
+            </li>
+            <% })%>
+    </ul>
+    <%include public/footer%>
